@@ -11,10 +11,10 @@ Use our deploy button to get your own copy of the repository:
 
 This will setup everything needed for running the CMS:
 
-* A new repository in your GitHub account with the code
-* Full Continuous Deployment to Netlify's global CDN network
-* Control users and access with Netlify Identity
-* Manage content with Decap CMS
+- A new repository in your GitHub account with the code
+- Full Continuous Deployment to Netlify's global CDN network
+- Control users and access with Netlify Identity
+- Manage content with Decap CMS
 
 The email address associated with your Netlify account will receive an email inviting you as an
 Identity user - click Accept in the email to set your new password, then navigate to `/admin` on
@@ -45,7 +45,7 @@ Now navigate to [localhost:4000](http://localhost:4000/) to preview the site, an
 Netlify provides basic OAuth so you can log in to Decap CMS with your GitHub profile directly if
 you prefer not to use Netlify Identity. To do so, go to [the GitHub developer application
 screen](https://github.com/settings/developers) and **register new application**. The Authorization
-callback URL you'll need to enter is `https://api.netlify.com/auth/done`. 
+callback URL you'll need to enter is `https://api.netlify.com/auth/done`.
 
 Once you've set up the application, go back to your Netlify site dashboard, navigate to the
 **Access** tab. Then fill in your new Client ID and Client Secret in the Github Authentication
