@@ -78,4 +78,4 @@ production:
   backend:
     name: github-api
     repo: https://github.com/gc83/japon2024
-    branch: master # Branch to update (master by default)test
+    branch: master # Branch to update (master by default)
